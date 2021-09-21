@@ -4,6 +4,7 @@
 @import "components/footer.css";
 @import "components/main.css";
 @import "components/setting.css";
+@import "components/chat.css";
 
 body{
     width: 100vw;

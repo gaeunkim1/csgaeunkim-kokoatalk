@@ -1,0 +1,65 @@
+.chat{
+    background-color: #A7C6DC;
+}
+.chat-bar{
+    background-color: #A7C6DC;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.chat-bar i{
+    margin-right: 60px;
+}
+
+
+.chat-main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.day{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.day span{
+    padding: 0 10px;
+    width: auto-fit;
+    height: 30px;
+    background-color: #939496;
+    opacity: 0.5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.white-chat{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 50px;
+}
+.opponent{
+    background-color: white;
+    width: auto-fit;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center;
+}
+.yellow-chat{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.me{
+    transform: scaleX(-1);
+    background-color: #F7DE00;
+}
+.me__chat{
+    transform: scaleX(-1);
+}
