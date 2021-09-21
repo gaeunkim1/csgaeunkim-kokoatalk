@@ -1,0 +1,39 @@
+main{
+    background-color: #F7DE00;
+    width: 100vw;
+    height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wallet{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wallet div:last-child{
+    padding-right: 10px;
+}
+.wallet div:last-child span:first-child{
+    margin-right: 20px;
+}
+
+.kokoapay{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.kokoapay-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.kokoapay-btn span:nth-child(even){
+    color: #CAB50B;
+}
