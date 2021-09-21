@@ -1,0 +1,38 @@
+.setting-header{
+    font-size: 20px;
+}
+.setting-header i:last-child{
+    padding-right: 60px;
+}
+
+.setting-main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 100vw;
+}
+.setting-components{
+    display: grid;
+    grid-template-columns: 30px repeat(2, 1fr);
+    grid-template-rows: 30px;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+}
+.setting-components i{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+.setting-components div span:first-child{
+    grid-column: 2/3;
+    grid-row: 1/-1;
+}
+.more-info{
+    grid-column: 3/-1;
+    grid-row: 1/-1;
+    color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}

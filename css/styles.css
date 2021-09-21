@@ -3,6 +3,7 @@
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/main.css";
+@import "components/setting.css";
 
 body{
     width: 100vw;
